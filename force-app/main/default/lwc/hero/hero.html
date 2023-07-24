@@ -6,7 +6,25 @@
     <div class="call-to-action container">
         <h1>My name is Jane Doe</h1>
         <p>lets do business together</p>
-        <button>Contact Me</button>
+        <button onclick={showDialog}>Contact Me</button>
     </div>
+
+    <dialog class="leadForm ">
+    <div class="slds-form-element">
+        <div class="slds-text-heading_medium">Submit your Info</div>
+        <Form onsubmit={submitForm}>
+            <label class="slds-form-element__label" for="text-input-id-47">First Name<input id="text-input-id-47" class="slds-input " type="text"></label>
+            <label class="slds-form-element__label" for="text-input-id-48">Last Name<input id="text-input-id-48" class="slds-input" type="text"></label>
+            <label class="slds-form-element__label" for="text-input-id-49">Company<input id="text-input-id-49" class="slds-input" type="text"></label>
+            <label class="slds-form-element__label" for="text-input-id-50">Email<input id="text-input-id-50" class="slds-input" type="text"></label>
+            <label class="slds-form-element__label" for="text-input-id-50">Description
+            <textarea name="desc" id="descr" cols="20" rows="5" placeholder="what would you like to discuss?" class="slds-input"></textarea>
+            </label>
+            <button class="slds-button slds-button_neutral cancelButton" onclick={closeDialog}>Cancel</button>
+            <input type="submit" class="slds-button slds-button_brand">
+
+        </Form> 
+      </div>  
+    </dialog>
 
 </template>
