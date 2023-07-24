@@ -1,0 +1,33 @@
+img{
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+h1{
+    font-size: 36px;
+    margin-top: 15px;
+}
+p{
+    font-size: 24px;
+}
+
+button{
+    margin-top: 10px;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.call-to-action{
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .container{
+        float: left;
+        width: 50%;
+    }
+    .call-to-action{
+        margin-top: 10%;
+    }
+
+}
