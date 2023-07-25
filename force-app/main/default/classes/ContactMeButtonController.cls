@@ -1,6 +1,7 @@
 public with sharing class ContactMeButtonController {
 
-    public static void CreateLead(String firstName, String lastName, String company, String email, String description) {
+    @AuraEnabled
+    public static void createLead(String firstName, String lastName, String company, String email, String description) {
         Lead lead = new Lead();
         lead.FirstName = firstName;
         lead.LastName = lastName;

@@ -11,31 +11,8 @@ p{
     font-size: 24px;
 }
 
-input{
-    width: 100%;
-}
-label{
-    width: 100%;
-}
-
-textarea{
-    width: 100%;
-}
-
-button{
-    margin-top: 10px;
-    border-radius: 7px;
-    padding: 5px;
-}
-
 .call-to-action{
     text-align: center;
-}
-
-dialog{
-    border-radius: 7px;
-    width: 60%;
-    height: 80%;
 }
 
 @media only screen and (min-width: 768px) {

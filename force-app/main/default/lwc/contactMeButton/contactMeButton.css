@@ -1,0 +1,27 @@
+input{
+    width: 100%;
+}
+label{
+    width: 100%;
+    text-align: left;
+}
+
+textarea{
+    width: 100%;
+}
+
+button{
+    margin-top: 10px;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.cancelButton{
+    width: 100%;
+}
+dialog{
+    border-radius: 7px;
+    width: 60%;
+    height: 80%;
+}
+
