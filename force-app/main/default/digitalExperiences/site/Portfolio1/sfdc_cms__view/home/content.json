@@ -12,17 +12,9 @@
           },
           "children" : [ {
             "children" : [ {
-              "attributes" : {
-                "backgroundColor" : "",
-                "paddingHorizontal" : "none",
-                "paddingVertical" : "none",
-                "text" : "This is the Portfolio Site",
-                "textAlign" : "center",
-                "textDecoration" : "{}",
-                "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
-              },
-              "definition" : "dxp_base:textBlock",
-              "id" : "16668492-35cf-40f5-88c9-3627d2004f79",
+              "attributes" : { },
+              "definition" : "c:hero",
+              "id" : "e6b1b0cd-2f05-4e17-aebc-784dc27046d3",
               "type" : "component"
             } ],
             "id" : "e50ec4cb-42ee-45a3-9dd6-114a534f47e0",

@@ -1,6 +1,6 @@
-public with sharing class ContactMeButtonController {
+global class ContactMeButtonController {
 
-    @AuraEnabled
+    @AuraEnabled    
     public static void createLead(String firstName, String lastName, String company, String email, String description) {
         Lead lead = new Lead();
         lead.FirstName = firstName;
@@ -8,6 +8,7 @@ public with sharing class ContactMeButtonController {
         lead.Company = company;
         lead.Email = email;
         lead.Description = description;
+        //test
 
     insert lead;
 
