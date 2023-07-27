@@ -16,6 +16,11 @@
               "definition" : "c:hero",
               "id" : "e6b1b0cd-2f05-4e17-aebc-784dc27046d3",
               "type" : "component"
+            }, {
+              "attributes" : { },
+              "definition" : "c:skillCards",
+              "id" : "9ace868e-20d9-4de9-8dfd-f7166ae4c816",
+              "type" : "component"
             } ],
             "id" : "e50ec4cb-42ee-45a3-9dd6-114a534f47e0",
             "name" : "col1",

@@ -27,6 +27,11 @@
         "type" : "region"
       }, {
         "children" : [ {
+          "attributes" : { },
+          "definition" : "c:aboutMe",
+          "id" : "df99877f-c2e1-4731-9ba9-757b4b37bb06",
+          "type" : "component"
+        }, {
           "attributes" : {
             "backgroundImageConfig" : "",
             "backgroundImageOverlay" : "rgba(0,0,0,0)",
